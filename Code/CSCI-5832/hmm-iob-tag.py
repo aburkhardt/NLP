@@ -2,7 +2,7 @@
 This script contains all of the functions necessary to predict POS tags (includes sampling and baseline computations).
 This script is executable with the following unix command line:
 
-python burkhardt-amy-assgn4.py Data/berp-POS-training.txt Data/testset.txt > burkhardt-amy-assgn4-test-output.txt
+python burkhardt-amy-assgn4.py trainingfile.txt testset.txt > burkhardt-amy-assgn4-test-output.txt
 
 Example code for how to call these functions to produce results is presented in the second part of the report entitled
 burkhardt-amy-asgn4-report.pdf
