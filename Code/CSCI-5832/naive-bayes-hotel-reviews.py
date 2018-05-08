@@ -8,7 +8,7 @@ def get_training(path):
     dat = []
     with open(path) as f:
         for line in f:
-            line = re.split('\s', line)[1:-1] #ignore first and last element in the list.
+            #line = re.split('\s', line)[1:-1] #ignore first and last element in the list.
             line = [x.upper() for x in line]
             line = [re.sub(r'[^A-Za-z|^0-9]+', '',x) for x in line]
             line = [word for word in line if word != '']
